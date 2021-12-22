@@ -1,0 +1,91 @@
+2021-12-22 11:28:46.058 [ERRO] crawled url : https://alixiaozhan.net/d/97566 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:29:07.486 [ERRO] crawled url : https://alixiaozhan.net/d/41975 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:29:30.071 [ERRO] crawled url : https://alixiaozhan.net/d/46813 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:29:51.433 [ERRO] crawled url : https://alixiaozhan.net/d/72313 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:30:12.731 [ERRO] crawled url : https://alixiaozhan.net/d/92147 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:30:34.425 [ERRO] crawled url : https://alixiaozhan.net/d/1944 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:30:54.459 [ERRO] crawled url : https://alixiaozhan.net/d/83571 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:31:13.808 [ERRO] crawled url : https://alixiaozhan.net/d/4709 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:31:45.305 [ERRO] crawled url : https://alixiaozhan.net/d/97566 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:32:05.225 [ERRO] crawled url : https://alixiaozhan.net/d/41975 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:32:32.784 [ERRO] crawled url : https://alixiaozhan.net/d/46813 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:32:54.970 [ERRO] crawled url : https://alixiaozhan.net/d/72313 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-22 11:33:16.852 [ERRO] crawled url : https://alixiaozhan.net/d/94638 , error message : invalid character '<' looking for beginning of value
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:376
+2.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 

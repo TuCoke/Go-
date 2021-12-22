@@ -1,0 +1,2084 @@
+2021-12-21 18:31:42.733 [DEBU] [ 46 ms] [default] SHOW FULL COLUMNS FROM `posts` 
+2021-12-21 18:31:42.765 [ERRO] [ 25 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`Tags`,`del_url`,`CreateOn`,`HtmlContext`,`Request_id`,`aliyun_url`) VALUES(0,'账号无缘无故被封禁了吗？请看这里！！！',32,'','2021-12-21 18:31:42','2021-12-16T10:13:01+00:00','97566','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:42.788 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`aliyun_url`,`CreateOn`,`Id`,`Request_id`,`del_url`,`Tags`) VALUES('小站重新上线：来自站长的一封信！','2021-10-04T07:12:33+00:00','','2021-12-21 18:31:42',0,'41975','',479) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:42.810 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Title`,`Request_id`,`del_url`,`aliyun_url`,`CreateOn`,`Id`,`HtmlContext`,`Tags`) VALUES('【审核发帖】账号被封看这里，查看新版规，避免误入雷区！','46813','','','2021-12-21 18:31:42',0,'2021-10-13T14:04:32+00:00',164) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:42.831 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Id`,`Request_id`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`aliyun_url`,`del_url`) VALUES(0,'72313','2021-12-21 18:31:42','阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！','2021-11-13T04:58:01+00:00',92,'','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:42.854 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Request_id`,`del_url`,`HtmlContext`,`Tags`,`aliyun_url`,`CreateOn`,`Id`,`Title`) VALUES('74089','','2021-11-15T07:46:39+00:00',772,'','2021-12-21 18:31:42',0,'闲着没事，玩成语接龙吧') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:42.877 [ERRO] [ 23 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Id`,`Title`,`Tags`,`aliyun_url`,`HtmlContext`,`Request_id`) VALUES('','2021-12-21 18:31:42',0,'【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】',22,'','2021-12-18T07:53:44+00:00','98861') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:42.900 [ERRO] [ 23 ms] [default] INSERT INTO `posts`(`Tags`,`aliyun_url`,`Id`,`HtmlContext`,`del_url`,`CreateOn`,`Title`,`Request_id`) VALUES(62,'',0,'2021-10-31T14:24:46+00:00','','2021-12-21 18:31:42','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','61867') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:42.923 [ERRO] [ 20 ms] [default] INSERT INTO `posts`(`Title`,`aliyun_url`,`Request_id`,`del_url`,`CreateOn`,`Id`,`HtmlContext`,`Tags`) VALUES('美食制作，各地小吃。','','66316','','2021-12-21 18:31:42',0,'2021-11-06T13:59:32+00:00',10) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:42.945 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Id`,`HtmlContext`,`aliyun_url`,`CreateOn`,`Title`,`Tags`,`Request_id`,`del_url`) VALUES(0,'2021-10-24T04:37:53+00:00','','2021-12-21 18:31:42','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的',309,'57321','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:42.967 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Id`,`HtmlContext`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`Tags`,`Request_id`) VALUES(0,'2021-08-03T08:34:58+00:00','','','2021-12-21 18:31:42','求，《风云》系列电视剧！',6,'2864') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:42.992 [ERRO] [ 23 ms] [default] INSERT INTO `posts`(`CreateOn`,`Id`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:31:42',0,'一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00',103,'94827','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.014 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Tags`,`Title`,`HtmlContext`,`CreateOn`,`Id`) VALUES('65258','','',2,'[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00','2021-12-21 18:31:42',0) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.035 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`HtmlContext`,`Tags`,`aliyun_url`,`Id`,`Title`,`Request_id`) VALUES('','2021-12-21 18:31:43','2021-08-23T03:33:43+00:00',14,'',0,'【李丽珍系列】1996-玉PT2：玉女心经 4.36G','8370') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.057 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`Id`,`Tags`,`del_url`,`CreateOn`,`Title`,`HtmlContext`) VALUES('100270','',0,4,'','2021-12-21 18:31:43','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.079 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`CreateOn`,`HtmlContext`,`Tags`,`Request_id`,`del_url`,`Id`,`Title`,`aliyun_url`) VALUES('2021-12-21 18:31:43','2021-12-21T10:17:06+00:00',2,'100345','',0,'【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.101 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Id`,`Request_id`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`aliyun_url`) VALUES(0,'100291','','2021-12-21 18:31:43','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00',2,'') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.128 [ERRO] [ 26 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`Tags`,`CreateOn`,`HtmlContext`,`Request_id`,`aliyun_url`,`del_url`) VALUES(0,'【PC绿色版】搬一些常用软件绿色版本2',29,'2021-12-21 18:31:43','2021-12-11T05:44:00+00:00','92363','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.158 [ERRO] [ 30 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Request_id`,`CreateOn`,`Id`,`Tags`,`aliyun_url`,`del_url`) VALUES('学霸戴你飞通信原理','2021-11-10T10:43:17+00:00','70129','2021-12-21 18:31:43',0,4,'','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.180 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`aliyun_url`,`CreateOn`,`Id`,`Request_id`,`del_url`,`Title`) VALUES('2021-12-17T13:21:33+00:00',3,'','2021-12-21 18:31:43',0,'98442','','求电子书') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.202 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`del_url`,`Id`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`CreateOn`) VALUES('',0,'伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩','2021-11-23T10:07:23+00:00',7,'79939','','2021-12-21 18:31:43') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.327 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Request_id`,`aliyun_url`,`Id`,`Tags`,`del_url`,`CreateOn`,`Title`) VALUES('2021-10-13T14:04:32+00:00','46813','',0,164,'','2021-12-21 18:31:43','【审核发帖】账号被封看这里，查看新版规，避免误入雷区！') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.350 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`CreateOn`,`aliyun_url`,`del_url`,`HtmlContext`,`Tags`,`Request_id`,`Id`,`Title`) VALUES('2021-12-21 18:31:43','','','2021-11-13T04:58:01+00:00',92,'72313',0,'阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.372 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`del_url`,`Id`,`Title`,`aliyun_url`,`CreateOn`) VALUES('2021-11-15T07:46:39+00:00',772,'74089','',0,'闲着没事，玩成语接龙吧','','2021-12-21 18:31:43') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.395 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`CreateOn`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(0,'【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-21 18:31:43','2021-12-18T07:53:44+00:00',22,'98861','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.416 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Id`,`Title`,`HtmlContext`,`CreateOn`) VALUES(62,'61867','','',0,'Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00','2021-12-21 18:31:43') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.439 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`del_url`,`HtmlContext`,`Request_id`,`aliyun_url`,`CreateOn`,`Id`,`Title`,`Tags`) VALUES('','2021-11-06T13:59:32+00:00','66316','','2021-12-21 18:31:43',0,'美食制作，各地小吃。',10) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.462 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Id`,`Title`,`Tags`) VALUES('2021-10-24T04:37:53+00:00','57321','','','2021-12-21 18:31:43',0,'PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的',309) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.484 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`CreateOn`,`Id`,`HtmlContext`,`Tags`,`Request_id`,`Title`) VALUES('','','2021-12-21 18:31:43',0,'2021-08-03T08:34:58+00:00',6,'2864','求，《风云》系列电视剧！') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.510 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Request_id`,`del_url`,`aliyun_url`,`CreateOn`,`Id`,`Title`,`Tags`) VALUES('2021-12-13T12:55:56+00:00','94827','','','2021-12-21 18:31:43',0,'一些Android软件分享，有需要自取。',103) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.532 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`HtmlContext`,`Request_id`,`Tags`,`aliyun_url`,`del_url`,`CreateOn`) VALUES(0,'[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00','65258',2,'','','2021-12-21 18:31:43') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.564 [ERRO] [ 28 ms] [default] INSERT INTO `posts`(`Id`,`Tags`,`aliyun_url`,`CreateOn`,`Title`,`HtmlContext`,`Request_id`,`del_url`) VALUES(0,14,'','2021-12-21 18:31:43','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00','8370','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.586 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`aliyun_url`,`del_url`,`CreateOn`,`Id`,`Title`,`Request_id`) VALUES('2021-12-21T05:55:19+00:00',4,'','','2021-12-21 18:31:43',0,'【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','100270') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.608 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Id`,`Tags`,`Title`,`HtmlContext`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES(0,2,'【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00','100345','','','2021-12-21 18:31:43') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.640 [ERRO] [ 28 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Id`,`HtmlContext`,`Tags`,`Request_id`,`Title`,`CreateOn`) VALUES('','',0,'2021-12-21T06:47:51+00:00',2,'100291','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21 18:31:43') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.668 [ERRO] [ 25 ms] [default] INSERT INTO `posts`(`Id`,`HtmlContext`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`Tags`,`Request_id`) VALUES(0,'2021-12-11T05:44:00+00:00','','','2021-12-21 18:31:43','【PC绿色版】搬一些常用软件绿色版本2',29,'92363') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.693 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`Title`,`Tags`,`Request_id`,`aliyun_url`,`Id`,`del_url`,`CreateOn`,`HtmlContext`) VALUES('学霸戴你飞通信原理',4,'70129','',0,'','2021-12-21 18:31:43','2021-11-10T10:43:17+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.729 [ERRO] [ 35 ms] [default] INSERT INTO `posts`(`Title`,`Tags`,`aliyun_url`,`CreateOn`,`Id`,`HtmlContext`,`Request_id`,`del_url`) VALUES('求电子书',3,'','2021-12-21 18:31:43',0,'2021-12-17T13:21:33+00:00','98442','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.758 [ERRO] [ 27 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`HtmlContext`,`aliyun_url`,`del_url`,`CreateOn`,`Tags`,`Request_id`) VALUES(0,'伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩','2021-11-23T10:07:23+00:00','','','2021-12-21 18:31:43',7,'79939') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.780 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`Request_id`,`CreateOn`,`HtmlContext`,`Tags`,`aliyun_url`,`del_url`) VALUES(0,'代找互联网任意资源','93966','2021-12-21 18:31:43','2021-12-12T15:36:06+00:00',232,'','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.802 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Id`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`CreateOn`) VALUES('','',0,'【独家资源】谁是凶手 2021 1080P＆4K 内嵌字幕＆外挂字幕 集均1GB+ 更新1～16集！！！失效和谐不补！！！','2021-12-05T14:12:59+00:00',47,'85239','2021-12-21 18:31:43') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.816 [ERRO] [ 37 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`Id`,`HtmlContext`,`Tags`,`del_url`,`CreateOn`,`Title`) VALUES('72313','',0,'2021-11-13T04:58:01+00:00',92,'','2021-12-21 18:31:43','阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.840 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`Id`,`Request_id`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`aliyun_url`) VALUES(0,'74089','','2021-12-21 18:31:43','闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.863 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Request_id`,`Id`,`HtmlContext`,`Tags`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('98861',0,'2021-12-18T07:53:44+00:00',22,'','','2021-12-21 18:31:43','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.886 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`HtmlContext`,`aliyun_url`,`CreateOn`,`Tags`,`Request_id`,`del_url`) VALUES(0,'Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00','','2021-12-21 18:31:43',62,'61867','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.902 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`aliyun_url`,`del_url`,`HtmlContext`,`Tags`,`Request_id`,`CreateOn`) VALUES(0,'美食制作，各地小吃。','','','2021-11-06T13:59:32+00:00',10,'66316','2021-12-21 18:31:43') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.924 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Request_id`,`aliyun_url`,`del_url`,`Id`,`Tags`,`CreateOn`,`Title`) VALUES('2021-10-24T04:37:53+00:00','57321','','',0,309,'2021-12-21 18:31:43','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.940 [ERRO] [ 14 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Id`,`Title`,`HtmlContext`,`Tags`) VALUES('2864','','','2021-12-21 18:31:43',0,'求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.963 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Id`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`Title`) VALUES('','2021-12-21 18:31:43',0,'2021-12-13T12:55:56+00:00',103,'94827','','一些Android软件分享，有需要自取。') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:43.978 [ERRO] [ 14 ms] [default] INSERT INTO `posts`(`HtmlContext`,`CreateOn`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Id`,`Title`) VALUES('2021-11-05T15:54:35+00:00','2021-12-21 18:31:43',2,'65258','','',0,'[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.008 [ERRO] [ 29 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`del_url`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`CreateOn`) VALUES(0,'【李丽珍系列】1996-玉PT2：玉女心经 4.36G','','2021-08-23T03:33:43+00:00',14,'8370','','2021-12-21 18:31:43') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.026 [ERRO] [ 15 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`aliyun_url`,`Id`,`del_url`,`CreateOn`,`Request_id`) VALUES('【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00',4,'',0,'','2021-12-21 18:31:44','100270') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.048 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Id`,`Title`) VALUES('2021-12-21T10:17:06+00:00',2,'100345','','','2021-12-21 18:31:44',0,'【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.062 [ERRO] [ 14 ms] [default] INSERT INTO `posts`(`CreateOn`,`aliyun_url`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`del_url`,`Id`) VALUES('2021-12-21 18:31:44','','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00',2,'100291','',0) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.085 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Request_id`,`del_url`,`Id`,`Title`,`HtmlContext`,`Tags`,`aliyun_url`,`CreateOn`) VALUES('92363','',0,'【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00',29,'','2021-12-21 18:31:44') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.102 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`aliyun_url`,`del_url`,`Id`,`HtmlContext`,`Tags`,`Request_id`) VALUES('2021-12-21 18:31:44','学霸戴你飞通信原理','','',0,'2021-11-10T10:43:17+00:00',4,'70129') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.125 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Id`,`HtmlContext`,`CreateOn`,`Title`) VALUES(3,'98442','','',0,'2021-12-17T13:21:33+00:00','2021-12-21 18:31:44','求电子书') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.159 [ERRO] [ 33 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`aliyun_url`,`CreateOn`,`Id`,`Title`,`Request_id`,`del_url`) VALUES('2021-11-23T10:07:23+00:00',7,'','2021-12-21 18:31:44',0,'伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩','79939','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.184 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`del_url`,`Id`) VALUES('93966','','2021-12-21 18:31:44','代找互联网任意资源','2021-12-12T15:36:06+00:00',232,'',0) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.200 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`Tags`,`CreateOn`,`HtmlContext`,`Request_id`,`aliyun_url`,`del_url`) VALUES(0,'【独家资源】谁是凶手 2021 1080P＆4K 内嵌字幕＆外挂字幕 集均1GB+ 更新1～16集！！！失效和谐不补！！！',47,'2021-12-21 18:31:44','2021-12-05T14:12:59+00:00','85239','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.221 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Id`,`Title`,`CreateOn`) VALUES('2021-12-20T12:11:37+00:00',3,'100067','','',0,'各类股权方案学习资料','2021-12-21 18:31:44') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.411 [ERRO] [ 13 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`aliyun_url`,`Title`,`Request_id`,`del_url`,`CreateOn`,`Id`) VALUES('2021-11-15T07:46:39+00:00',772,'','闲着没事，玩成语接龙吧','74089','','2021-12-21 18:31:44',0) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.432 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Id`,`Tags`) VALUES('【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00','98861','','','2021-12-21 18:31:44',0,22) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.448 [ERRO] [ 15 ms] [default] INSERT INTO `posts`(`Id`,`aliyun_url`,`del_url`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`CreateOn`) VALUES(0,'','','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00',62,'61867','2021-12-21 18:31:44') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.469 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Tags`,`aliyun_url`,`del_url`,`CreateOn`,`Id`,`Title`,`HtmlContext`,`Request_id`) VALUES(10,'','','2021-12-21 18:31:44',0,'美食制作，各地小吃。','2021-11-06T13:59:32+00:00','66316') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.490 [ERRO] [ 20 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Request_id`,`del_url`,`CreateOn`,`Id`,`Title`,`Tags`,`aliyun_url`) VALUES('2021-10-24T04:37:53+00:00','57321','','2021-12-21 18:31:44',0,'PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的',309,'') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.513 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`Request_id`,`aliyun_url`,`del_url`,`HtmlContext`,`Tags`,`CreateOn`) VALUES(0,'求，《风云》系列电视剧！','2864','','','2021-08-03T08:34:58+00:00',6,'2021-12-21 18:31:44') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.529 [ERRO] [ 15 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`CreateOn`,`Id`,`Title`,`HtmlContext`,`Tags`,`del_url`) VALUES('94827','','2021-12-21 18:31:44',0,'一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00',103,'') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.556 [ERRO] [ 27 ms] [default] INSERT INTO `posts`(`CreateOn`,`Request_id`,`del_url`,`HtmlContext`,`Tags`,`aliyun_url`,`Id`,`Title`) VALUES('2021-12-21 18:31:44','65258','','2021-11-05T15:54:35+00:00',2,'',0,'[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.572 [ERRO] [ 14 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Id`,`Title`,`HtmlContext`,`Tags`) VALUES('8370','','','2021-12-21 18:31:44',0,'【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.595 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Request_id`,`aliyun_url`,`del_url`,`Id`,`Tags`) VALUES('2021-12-21 18:31:44','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00','100270','','',0,4) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.610 [ERRO] [ 15 ms] [default] INSERT INTO `posts`(`Id`,`Title`,`CreateOn`,`del_url`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES(0,'【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21 18:31:44','','2021-12-21T10:17:06+00:00',2,'100345','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.639 [ERRO] [ 23 ms] [default] INSERT INTO `posts`(`HtmlContext`,`del_url`,`CreateOn`,`Id`,`Title`,`Tags`,`Request_id`,`aliyun_url`) VALUES('2021-12-21T06:47:51+00:00','','2021-12-21 18:31:44',0,'2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒',2,'100291','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.657 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`del_url`,`Id`,`Request_id`,`aliyun_url`,`CreateOn`,`Title`) VALUES('2021-12-11T05:44:00+00:00',29,'',0,'92363','','2021-12-21 18:31:44','【PC绿色版】搬一些常用软件绿色版本2') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.680 [ERRO] [ 23 ms] [default] INSERT INTO `posts`(`Title`,`Tags`,`Request_id`,`aliyun_url`,`CreateOn`,`Id`,`del_url`,`HtmlContext`) VALUES('学霸戴你飞通信原理',4,'70129','','2021-12-21 18:31:44',0,'','2021-11-10T10:43:17+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.701 [ERRO] [ 19 ms] [default] INSERT INTO `posts`(`Id`,`Tags`,`Request_id`,`CreateOn`,`Title`,`HtmlContext`,`aliyun_url`,`del_url`) VALUES(0,3,'98442','2021-12-21 18:31:44','求电子书','2021-12-17T13:21:33+00:00','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.724 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Id`,`Title`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('2021-11-23T10:07:23+00:00',0,'伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩',7,'79939','','','2021-12-21 18:31:44') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.747 [ERRO] [ 18 ms] [default] INSERT INTO `posts`(`Request_id`,`Id`,`Title`,`Tags`,`CreateOn`,`HtmlContext`,`aliyun_url`,`del_url`) VALUES('93966',0,'代找互联网任意资源',232,'2021-12-21 18:31:44','2021-12-12T15:36:06+00:00','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.770 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Title`,`Request_id`,`aliyun_url`,`CreateOn`,`Id`,`Tags`,`del_url`,`HtmlContext`) VALUES('【独家资源】谁是凶手 2021 1080P＆4K 内嵌字幕＆外挂字幕 集均1GB+ 更新1～16集！！！失效和谐不补！！！','85239','','2021-12-21 18:31:44',0,47,'','2021-12-05T14:12:59+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.787 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`Title`,`aliyun_url`,`del_url`,`Request_id`,`CreateOn`,`Id`,`HtmlContext`,`Tags`) VALUES('各类股权方案学习资料','','','100067','2021-12-21 18:31:44',0,'2021-12-20T12:11:37+00:00',3) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:31:44.810 [ERRO] [ 23 ms] [default] INSERT INTO `posts`(`CreateOn`,`Request_id`,`Title`,`HtmlContext`,`Tags`,`aliyun_url`,`del_url`,`Id`) VALUES('2021-12-21 18:31:44','100250','鬼谷八荒4034','2021-12-21T04:17:59+00:00',2,'','',0) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.184 [DEBU] [ 48 ms] [default] SHOW FULL COLUMNS FROM `posts` 
+2021-12-21 18:34:12.219 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','','2021-12-21 18:34:12','账号无缘无故被封禁了吗？请看这里！！！','2021-12-16T10:13:01+00:00',32,'97566') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.242 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`) VALUES(479,'41975','','','2021-12-21 18:34:12','小站重新上线：来自站长的一封信！','2021-10-04T07:12:33+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.274 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-10-13T14:04:32+00:00',164,'46813','','','2021-12-21 18:34:12','【审核发帖】账号被封看这里，查看新版规，避免误入雷区！') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.300 [ERRO] [ 23 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！','2021-11-13T04:58:01+00:00',92,'72313','','','2021-12-21 18:34:12') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.327 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('亚马逊原版azw3合集','2021-12-19T04:01:32+00:00',2,'99390','','','2021-12-21 18:34:12') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.366 [ERRO] [ 30 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','','2021-12-21 18:34:12','闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'74089') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.390 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('98861','','','2021-12-21 18:34:12','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00',22) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.412 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('61867','','','2021-12-21 18:34:12','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00',62) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.434 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('','2021-12-21 18:34:12','美食制作，各地小吃。','2021-11-06T13:59:32+00:00',10,'66316','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.476 [ERRO] [ 41 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('','2021-12-21 18:34:12','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的','2021-10-24T04:37:53+00:00',309,'57321','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.500 [ERRO] [ 23 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('2864','','','2021-12-21 18:34:12','求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.521 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`) VALUES(103,'94827','','','2021-12-21 18:34:12','一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.544 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2,'65258','','','2021-12-21 18:34:12') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.567 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('','2021-12-21 18:34:12','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14,'8370','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.601 [ERRO] [ 31 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-12-21T05:55:19+00:00',4,'100270','','','2021-12-21 18:34:12','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.631 [ERRO] [ 26 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','','2021-12-21 18:34:12','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00',2,'100345') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.656 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-12-21T06:47:51+00:00',2,'100291','','','2021-12-21 18:34:12','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.682 [ERRO] [ 26 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:12','【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00',29,'92363','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.706 [ERRO] [ 23 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4,'70129','','','2021-12-21 18:34:12') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.729 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('求电子书','2021-12-17T13:21:33+00:00',3,'98442','','','2021-12-21 18:34:12') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.810 [ERRO] [ 20 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('46813','','','2021-12-21 18:34:12','【审核发帖】账号被封看这里，查看新版规，避免误入雷区！','2021-10-13T14:04:32+00:00',164) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.846 [ERRO] [ 36 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:12','阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！','2021-11-13T04:58:01+00:00',92,'72313','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.869 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`) VALUES(2,'99390','','','2021-12-21 18:34:12','亚马逊原版azw3合集','2021-12-19T04:01:32+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.890 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:12','闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'74089','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.920 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`) VALUES(22,'98861','','','2021-12-21 18:34:12','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.941 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('','2021-12-21 18:34:12','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00',62,'61867','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.963 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('美食制作，各地小吃。','2021-11-06T13:59:32+00:00',10,'66316','','','2021-12-21 18:34:12') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:12.985 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的','2021-10-24T04:37:53+00:00',309,'57321','','','2021-12-21 18:34:12') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.009 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6,'2864','','','2021-12-21 18:34:12') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.031 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('','2021-12-21 18:34:13','一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00',103,'94827','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.056 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-11-05T15:54:35+00:00',2,'65258','','','2021-12-21 18:34:13','[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.081 [ERRO] [ 25 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:13','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14,'8370','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.113 [ERRO] [ 32 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-12-21T05:55:19+00:00',4,'100270','','','2021-12-21 18:34:13','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.135 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`) VALUES(2,'100345','','','2021-12-21 18:34:13','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.159 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:13','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00',2,'100291','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.185 [ERRO] [ 25 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:13','【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00',29,'92363','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.210 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4,'70129','','','2021-12-21 18:34:13') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.235 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:13','求电子书','2021-12-17T13:21:33+00:00',3,'98442','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.270 [ERRO] [ 34 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-11-23T10:07:23+00:00',7,'79939','','','2021-12-21 18:34:13','伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.285 [ERRO] [ 58 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('72313','','','2021-12-21 18:34:13','阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！','2021-11-13T04:58:01+00:00',92) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.294 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`) VALUES(232,'93966','','','2021-12-21 18:34:13','代找互联网任意资源','2021-12-12T15:36:06+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.328 [ERRO] [ 38 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-12-19T04:01:32+00:00',2,'99390','','','2021-12-21 18:34:13','亚马逊原版azw3合集') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.355 [ERRO] [ 27 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'74089','','','2021-12-21 18:34:13') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.372 [ERRO] [ 17 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-12-18T07:53:44+00:00',22,'98861','','','2021-12-21 18:34:13','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.394 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-10-31T14:24:46+00:00',62,'61867','','','2021-12-21 18:34:13','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.412 [ERRO] [ 17 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-11-06T13:59:32+00:00',10,'66316','','','2021-12-21 18:34:13','美食制作，各地小吃。') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.433 [ERRO] [ 20 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','','2021-12-21 18:34:13','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的','2021-10-24T04:37:53+00:00',309,'57321') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.454 [ERRO] [ 20 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','','2021-12-21 18:34:13','求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6,'2864') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.476 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00',103,'94827','','','2021-12-21 18:34:13') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.497 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2,'65258','','','2021-12-21 18:34:13') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.519 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-08-23T03:33:43+00:00',14,'8370','','','2021-12-21 18:34:13','【李丽珍系列】1996-玉PT2：玉女心经 4.36G') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.538 [ERRO] [ 18 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('100270','','','2021-12-21 18:34:13','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00',4) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.561 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('100345','','','2021-12-21 18:34:13','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00',2) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.578 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('100291','','','2021-12-21 18:34:13','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00',2) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.601 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`) VALUES(29,'92363','','','2021-12-21 18:34:13','【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.623 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:13','学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4,'70129','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.645 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','','2021-12-21 18:34:13','求电子书','2021-12-17T13:21:33+00:00',3,'98442') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.661 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('79939','','','2021-12-21 18:34:13','伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩','2021-11-23T10:07:23+00:00',7) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.683 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('','2021-12-21 18:34:13','代找互联网任意资源','2021-12-12T15:36:06+00:00',232,'93966','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.706 [ERRO] [ 19 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`) VALUES(47,'85239','','','2021-12-21 18:34:13','【独家资源】谁是凶手 2021 1080P＆4K 内嵌字幕＆外挂字幕 集均1GB+ 更新1～16集！！！失效和谐不补！！！','2021-12-05T14:12:59+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.834 [ERRO] [ 25 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('99390','','','2021-12-21 18:34:13','亚马逊原版azw3合集','2021-12-19T04:01:32+00:00',2) 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.855 [ERRO] [ 20 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:13','闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'74089','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.878 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('','2021-12-21 18:34:13','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00',22,'98861','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.894 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:13','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00',62,'61867','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.915 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('','2021-12-21 18:34:13','美食制作，各地小吃。','2021-11-06T13:59:32+00:00',10,'66316','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.936 [ERRO] [ 19 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('','2021-12-21 18:34:13','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的','2021-10-24T04:37:53+00:00',309,'57321','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.958 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:13','求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6,'2864','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.974 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','','2021-12-21 18:34:13','一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00',103,'94827') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:13.998 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('','2021-12-21 18:34:13','[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2,'65258','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.016 [ERRO] [ 15 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:14','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14,'8370','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.044 [ERRO] [ 27 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:14','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00',4,'100270','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.067 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`) VALUES(2,'100345','','','2021-12-21 18:34:14','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.089 [ERRO] [ 21 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:14','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00',2,'100291','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.104 [ERRO] [ 15 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:14','【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00',29,'92363','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.128 [ERRO] [ 24 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`) VALUES('学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4,'70129','','','2021-12-21 18:34:14') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.148 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-12-17T13:21:33+00:00',3,'98442','','','2021-12-21 18:34:14','求电子书') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.170 [ERRO] [ 22 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES('2021-12-21 18:34:14','伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩','2021-11-23T10:07:23+00:00',7,'79939','','') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.186 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','','2021-12-21 18:34:14','代找互联网任意资源','2021-12-12T15:36:06+00:00',232,'93966') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.223 [ERRO] [ 37 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','','2021-12-21 18:34:14','【独家资源】谁是凶手 2021 1080P＆4K 内嵌字幕＆外挂字幕 集均1GB+ 更新1～16集！！！失效和谐不补！！！','2021-12-05T14:12:59+00:00',47,'85239') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:34:14.242 [ERRO] [ 16 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`CreateOn`,`Title`) VALUES('2021-12-20T12:11:37+00:00',3,'100067','','','2021-12-21 18:34:14','各类股权方案学习资料') 
+Error: Error 1364: Field 'Status' doesn't have a default value 
+Stack:
+1.  main/service.SavePost
+    D:/Hongbo/Code/Go_code/test/al/service/post.go:14
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:80
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:36:17.144 [DEBU] [ 40 ms] [default] SHOW FULL COLUMNS FROM `posts` 
+2021-12-21 18:36:17.179 [DEBU] [ 34 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:17','账号无缘无故被封禁了吗？请看这里！！！','2021-12-16T10:13:01+00:00',32,'97566','')  
+2021-12-21 18:36:17.211 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('41975','','',1,'2021-12-21 18:36:17','小站重新上线：来自站长的一封信！','2021-10-04T07:12:33+00:00',479)  
+2021-12-21 18:36:17.249 [DEBU] [ 37 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:36:17','【审核发帖】账号被封看这里，查看新版规，避免误入雷区！','2021-10-13T14:04:32+00:00',164,'46813','','',1)  
+2021-12-21 18:36:17.281 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(92,'72313','','',1,'2021-12-21 18:36:17','阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！','2021-11-13T04:58:01+00:00')  
+2021-12-21 18:36:17.308 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:36:17','亚马逊原版azw3合集','2021-12-19T04:01:32+00:00',3,'99390','','',1)  
+2021-12-21 18:36:17.338 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:36:17','【安卓破解网游】逍遥天地金庸卡牌手游，无限元宝打发时间','2021-12-16T03:14:31+00:00',50,'97252','','',1)  
+2021-12-21 18:36:17.392 [DEBU] [ 54 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:36:17','闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'74089')  
+2021-12-21 18:36:17.425 [DEBU] [ 33 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:17','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00',22,'98861','')  
+2021-12-21 18:36:17.454 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(62,'61867','','',1,'2021-12-21 18:36:17','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00')  
+2021-12-21 18:36:17.494 [DEBU] [ 34 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:36:17','美食制作，各地小吃。','2021-11-06T13:59:32+00:00',10,'66316','','',1)  
+2021-12-21 18:36:17.524 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:17','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的','2021-10-24T04:37:53+00:00',309,'57321','')  
+2021-12-21 18:36:17.553 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(6,'2864','','',1,'2021-12-21 18:36:17','求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00')  
+2021-12-21 18:36:17.583 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-13T12:55:56+00:00',103,'94827','','',1,'2021-12-21 18:36:17','一些Android软件分享，有需要自取。')  
+2021-12-21 18:36:17.618 [DEBU] [ 34 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:17','[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2,'65258','')  
+2021-12-21 18:36:17.645 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('8370','','',1,'2021-12-21 18:36:17','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14)  
+2021-12-21 18:36:17.672 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('100270','','',1,'2021-12-21 18:36:17','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00',4)  
+2021-12-21 18:36:17.712 [DEBU] [ 40 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:36:17','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00',2,'100345','','',1)  
+2021-12-21 18:36:17.742 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-21T06:47:51+00:00',2,'100291','','',1,'2021-12-21 18:36:17','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒')  
+2021-12-21 18:36:17.778 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:36:17','【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00',29,'92363')  
+2021-12-21 18:36:17.815 [DEBU] [ 37 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:17','学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4,'70129','')  
+2021-12-21 18:36:17.893 [DEBU] [ 82 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(164,'46813','','',1,'2021-12-21 18:36:17','【审核发帖】账号被封看这里，查看新版规，避免误入雷区！','2021-10-13T14:04:32+00:00')  
+2021-12-21 18:36:17.929 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:17','阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！','2021-11-13T04:58:01+00:00',92,'72313','')  
+2021-12-21 18:36:17.963 [DEBU] [ 33 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('亚马逊原版azw3合集','2021-12-19T04:01:32+00:00',3,'99390','','',1,'2021-12-21 18:36:17')  
+2021-12-21 18:36:17.996 [DEBU] [ 32 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('【安卓破解网游】逍遥天地金庸卡牌手游，无限元宝打发时间','2021-12-16T03:14:31+00:00',50,'97252','','',1,'2021-12-21 18:36:17')  
+2021-12-21 18:36:18.030 [DEBU] [ 34 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:36:17','闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'74089')  
+2021-12-21 18:36:18.057 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00',22,'98861','','',1,'2021-12-21 18:36:18')  
+2021-12-21 18:36:18.092 [DEBU] [ 35 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:18','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00',62,'61867','')  
+2021-12-21 18:36:18.121 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(10,'66316','','',1,'2021-12-21 18:36:18','美食制作，各地小吃。','2021-11-06T13:59:32+00:00')  
+2021-12-21 18:36:18.160 [DEBU] [ 39 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:18','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的','2021-10-24T04:37:53+00:00',309,'57321','')  
+2021-12-21 18:36:18.191 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:36:18','求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6,'2864','','',1)  
+2021-12-21 18:36:18.235 [DEBU] [ 44 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:36:18','一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00',103,'94827')  
+2021-12-21 18:36:18.268 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:18','[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2,'65258','')  
+2021-12-21 18:36:18.303 [DEBU] [ 35 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('8370','','',1,'2021-12-21 18:36:18','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14)  
+2021-12-21 18:36:18.332 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-21T05:55:19+00:00',4,'100270','','',1,'2021-12-21 18:36:18','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】')  
+2021-12-21 18:36:18.357 [DEBU] [ 39 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:36:18','阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！','2021-11-13T04:58:01+00:00',92,'72313')  
+2021-12-21 18:36:18.379 [DEBU] [ 44 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:36:18','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00',2,'100345','','')  
+2021-12-21 18:36:18.401 [DEBU] [ 44 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('99390','','',1,'2021-12-21 18:36:18','亚马逊原版azw3合集','2021-12-19T04:01:32+00:00',3)  
+2021-12-21 18:36:18.411 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(2,'100291','','',1,'2021-12-21 18:36:18','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00')  
+2021-12-21 18:36:18.443 [DEBU] [ 37 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-16T03:14:31+00:00',50,'97252','','',1,'2021-12-21 18:36:18','【安卓破解网游】逍遥天地金庸卡牌手游，无限元宝打发时间')  
+2021-12-21 18:36:18.445 [DEBU] [ 32 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('92363','','',1,'2021-12-21 18:36:18','【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00',29)  
+2021-12-21 18:36:18.473 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:18','学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4,'70129','')  
+2021-12-21 18:36:18.481 [DEBU] [ 38 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:36:18','闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'74089','','')  
+2021-12-21 18:36:18.500 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(3,'98442','','',1,'2021-12-21 18:36:18','求电子书','2021-12-17T13:21:33+00:00')  
+2021-12-21 18:36:18.519 [DEBU] [ 37 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:18','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00',22,'98861','')  
+2021-12-21 18:36:18.530 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(7,'79939','','',1,'2021-12-21 18:36:18','伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩','2021-11-23T10:07:23+00:00')  
+2021-12-21 18:36:18.556 [DEBU] [ 37 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:36:18','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00',62,'61867','','',1)  
+2021-12-21 18:36:18.588 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('66316','','',1,'2021-12-21 18:36:18','美食制作，各地小吃。','2021-11-06T13:59:32+00:00',10)  
+2021-12-21 18:36:18.626 [DEBU] [ 35 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:36:18','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的','2021-10-24T04:37:53+00:00',309,'57321')  
+2021-12-21 18:36:18.654 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6,'2864','','',1,'2021-12-21 18:36:18')  
+2021-12-21 18:36:18.693 [DEBU] [ 39 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00',103,'94827','','',1,'2021-12-21 18:36:18')  
+2021-12-21 18:36:18.726 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2,'65258','','',1,'2021-12-21 18:36:18')  
+2021-12-21 18:36:18.760 [DEBU] [ 33 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:18','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14,'8370','')  
+2021-12-21 18:36:18.790 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-21T05:55:19+00:00',4,'100270','','',1,'2021-12-21 18:36:18','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】')  
+2021-12-21 18:36:18.833 [DEBU] [ 42 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:36:18','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00',2,'100345','','',1)  
+2021-12-21 18:36:18.865 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:18','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00',2,'100291','')  
+2021-12-21 18:36:18.904 [DEBU] [ 38 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:18','【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00',29,'92363','')  
+2021-12-21 18:36:18.937 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('70129','','',1,'2021-12-21 18:36:18','学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4)  
+2021-12-21 18:36:18.981 [DEBU] [ 44 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(3,'98442','','',1,'2021-12-21 18:36:18','求电子书','2021-12-17T13:21:33+00:00')  
+2021-12-21 18:36:19.014 [DEBU] [ 32 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩','2021-11-23T10:07:23+00:00',7,'79939','','',1,'2021-12-21 18:36:18')  
+2021-12-21 18:36:19.061 [DEBU] [ 46 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-12T15:36:06+00:00',232,'93966','','',1,'2021-12-21 18:36:19','代找互联网任意资源')  
+2021-12-21 18:36:19.076 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:36:19','亚马逊原版azw3合集','2021-12-19T04:01:32+00:00',3,'99390','','')  
+2021-12-21 18:36:19.133 [DEBU] [ 57 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:36:19','【安卓破解网游】逍遥天地金庸卡牌手游，无限元宝打发时间','2021-12-16T03:14:31+00:00',50,'97252','','')  
+2021-12-21 18:36:19.165 [DEBU] [ 32 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-11-15T07:46:39+00:00',772,'74089','','',1,'2021-12-21 18:36:19','闲着没事，玩成语接龙吧')  
+2021-12-21 18:36:19.225 [DEBU] [ 47 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:36:19','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00',22,'98861')  
+2021-12-21 18:36:19.257 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:19','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00',62,'61867','')  
+2021-12-21 18:36:19.295 [DEBU] [ 37 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('美食制作，各地小吃。','2021-11-06T13:59:32+00:00',10,'66316','','',1,'2021-12-21 18:36:19')  
+2021-12-21 18:36:19.329 [DEBU] [ 32 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-10-24T04:37:53+00:00',309,'57321','','',1,'2021-12-21 18:36:19','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的')  
+2021-12-21 18:36:19.375 [DEBU] [ 39 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:36:19','求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6,'2864','','')  
+2021-12-21 18:36:19.416 [DEBU] [ 35 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(103,'94827','','',1,'2021-12-21 18:36:19','一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00')  
+2021-12-21 18:36:19.449 [DEBU] [ 33 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:36:19','[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2,'65258','')  
+2021-12-21 18:36:19.486 [DEBU] [ 37 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:36:19','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14,'8370','','',1)  
+2021-12-21 18:36:19.523 [DEBU] [ 35 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:36:19','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00',4,'100270')  
+2021-12-21 18:36:19.551 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:36:19','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00',2,'100345')  
+2021-12-21 18:36:19.589 [DEBU] [ 33 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-21T06:47:51+00:00',2,'100291','','',1,'2021-12-21 18:36:19','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒')  
+2021-12-21 18:36:19.625 [DEBU] [ 34 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('92363','','',1,'2021-12-21 18:36:19','【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00',29)  
+2021-12-21 18:36:19.664 [DEBU] [ 38 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:36:19','学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4,'70129','','')  
+2021-12-21 18:36:19.699 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:36:19','求电子书','2021-12-17T13:21:33+00:00',3,'98442')  
+2021-12-21 18:36:19.733 [DEBU] [ 34 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:36:19','伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩','2021-11-23T10:07:23+00:00',7,'79939','','')  
+2021-12-21 18:36:19.760 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-12T15:36:06+00:00',232,'93966','','',1,'2021-12-21 18:36:19','代找互联网任意资源')  
+2021-12-21 18:36:19.796 [DEBU] [ 35 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:36:19','【独家资源】谁是凶手 2021 1080P＆4K 内嵌字幕＆外挂字幕 集均1GB+ 更新1～16集！！！失效和谐不补！！！','2021-12-05T14:12:59+00:00',47,'85239','','',1)  
+2021-12-21 18:38:19.488 [DEBU] [ 51 ms] [default] SHOW FULL COLUMNS FROM `posts` 
+2021-12-21 18:38:19.520 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:38:19','账号无缘无故被封禁了吗？请看这里！！！','2021-12-16T10:13:01+00:00',32,'97566','')  
+2021-12-21 18:38:19.556 [DEBU] [ 36 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:19','小站重新上线：来自站长的一封信！','2021-10-04T07:12:33+00:00',479,'41975')  
+2021-12-21 18:38:19.593 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-10-13T14:04:32+00:00',164,'46813','','',1,'2021-12-21 18:38:19','【审核发帖】账号被封看这里，查看新版规，避免误入雷区！')  
+2021-12-21 18:38:19.624 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:38:19','阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！','2021-11-13T04:58:01+00:00',92,'72313','','')  
+2021-12-21 18:38:19.663 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:19','「维多利亚的秘密大秀2005~2...,采访,共计150GB」','2021-12-20T23:16:20+00:00',5,'100189')  
+2021-12-21 18:38:19.691 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:38:19','目录！！！','2021-11-11T04:47:07+00:00',118,'70648','','')  
+2021-12-21 18:38:19.720 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:38:19','亚马逊原版azw3合集','2021-12-19T04:01:32+00:00',3,'99390','','',1)  
+2021-12-21 18:38:19.748 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('97252','','',1,'2021-12-21 18:38:19','【安卓破解网游】逍遥天地金庸卡牌手游，无限元宝打发时间','2021-12-16T03:14:31+00:00',50)  
+2021-12-21 18:38:19.779 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(772,'74089','','',1,'2021-12-21 18:38:19','闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00')  
+2021-12-21 18:38:19.810 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(22,'98861','','',1,'2021-12-21 18:38:19','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00')  
+2021-12-21 18:38:19.841 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:19','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00',62,'61867')  
+2021-12-21 18:38:19.880 [DEBU] [ 37 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:19','美食制作，各地小吃。','2021-11-06T13:59:32+00:00',10,'66316')  
+2021-12-21 18:38:19.911 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:38:19','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的','2021-10-24T04:37:53+00:00',309,'57321','','')  
+2021-12-21 18:38:19.942 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:38:19','求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6,'2864','')  
+2021-12-21 18:38:19.973 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('94827','','',1,'2021-12-21 18:38:19','一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00',103)  
+2021-12-21 18:38:20.024 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:38:19','[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2,'65258','')  
+2021-12-21 18:38:20.054 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:20','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14,'8370')  
+2021-12-21 18:38:20.084 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(4,'100270','','',1,'2021-12-21 18:38:20','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00')  
+2021-12-21 18:38:20.120 [DEBU] [ 35 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00',2,'100345','','',1,'2021-12-21 18:38:20')  
+2021-12-21 18:38:20.140 [DEBU] [ 53 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:38:20','【审核发帖】账号被封看这里，查看新版规，避免误入雷区！','2021-10-13T14:04:32+00:00',164,'46813','','',1)  
+2021-12-21 18:38:20.153 [DEBU] [ 33 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00',2,'100291','','',1,'2021-12-21 18:38:20')  
+2021-12-21 18:38:20.167 [DEBU] [ 25 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(92,'72313','','',1,'2021-12-21 18:38:20','阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！','2021-11-13T04:58:01+00:00')  
+2021-12-21 18:38:20.197 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-20T23:16:20+00:00',5,'100189','','',1,'2021-12-21 18:38:20','「维多利亚的秘密大秀2005~2...,采访,共计150GB」')  
+2021-12-21 18:38:20.223 [DEBU] [ 26 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('70648','','',1,'2021-12-21 18:38:20','目录！！！','2021-11-11T04:47:07+00:00',118)  
+2021-12-21 18:38:20.261 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('99390','','',1,'2021-12-21 18:38:20','亚马逊原版azw3合集','2021-12-19T04:01:32+00:00',3)  
+2021-12-21 18:38:20.287 [DEBU] [ 24 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:38:20','【安卓破解网游】逍遥天地金庸卡牌手游，无限元宝打发时间','2021-12-16T03:14:31+00:00',50,'97252','')  
+2021-12-21 18:38:20.319 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'74089','','',1,'2021-12-21 18:38:20')  
+2021-12-21 18:38:20.345 [DEBU] [ 26 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:38:20','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00',22,'98861','','')  
+2021-12-21 18:38:20.373 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:38:20','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00',62,'61867','','',1)  
+2021-12-21 18:38:20.397 [DEBU] [ 23 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(10,'66316','','',1,'2021-12-21 18:38:20','美食制作，各地小吃。','2021-11-06T13:59:32+00:00')  
+2021-12-21 18:38:20.429 [DEBU] [ 32 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-10-24T04:37:53+00:00',309,'57321','','',1,'2021-12-21 18:38:20','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的')  
+2021-12-21 18:38:20.456 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:38:20','求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6,'2864','')  
+2021-12-21 18:38:20.487 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:38:20','一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00',103,'94827','','')  
+2021-12-21 18:38:20.512 [DEBU] [ 25 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:20','[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2,'65258')  
+2021-12-21 18:38:20.541 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('8370','','',1,'2021-12-21 18:38:20','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14)  
+2021-12-21 18:38:20.565 [DEBU] [ 24 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:20','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00',4,'100270')  
+2021-12-21 18:38:20.597 [DEBU] [ 32 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:38:20','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00',2,'100345','')  
+2021-12-21 18:38:20.630 [DEBU] [ 26 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:38:20','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00',2,'100291','')  
+2021-12-21 18:38:20.664 [DEBU] [ 34 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:20','【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00',29,'92363')  
+2021-12-21 18:38:20.673 [DEBU] [ 25 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-11-13T04:58:01+00:00',92,'72313','','',1,'2021-12-21 18:38:20','阿里小站即日起将彻底清理站内写真图，禁止发布任何写真！')  
+2021-12-21 18:38:20.694 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4,'70129','','',1,'2021-12-21 18:38:20')  
+2021-12-21 18:38:20.698 [DEBU] [ 24 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('「维多利亚的秘密大秀2005~2...,采访,共计150GB」','2021-12-20T23:16:20+00:00',5,'100189','','',1,'2021-12-21 18:38:20')  
+2021-12-21 18:38:20.726 [DEBU] [ 26 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:20','目录！！！','2021-11-11T04:47:07+00:00',118,'70648')  
+2021-12-21 18:38:20.752 [DEBU] [ 24 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('亚马逊原版azw3合集','2021-12-19T04:01:32+00:00',3,'99390','','',1,'2021-12-21 18:38:20')  
+2021-12-21 18:38:20.779 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-16T03:14:31+00:00',50,'97252','','',1,'2021-12-21 18:38:20','【安卓破解网游】逍遥天地金庸卡牌手游，无限元宝打发时间')  
+2021-12-21 18:38:20.807 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:38:20','闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'74089','','',1)  
+2021-12-21 18:38:20.837 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:38:20','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00',22,'98861','','')  
+2021-12-21 18:38:20.866 [DEBU] [ 28 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:20','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)','2021-10-31T14:24:46+00:00',62,'61867')  
+2021-12-21 18:38:20.897 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('美食制作，各地小吃。','2021-11-06T13:59:32+00:00',10,'66316','','',1,'2021-12-21 18:38:20')  
+2021-12-21 18:38:20.923 [DEBU] [ 25 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-10-24T04:37:53+00:00',309,'57321','','',1,'2021-12-21 18:38:20','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的')  
+2021-12-21 18:38:20.949 [DEBU] [ 26 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:20','求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6,'2864')  
+2021-12-21 18:38:20.981 [DEBU] [ 32 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00',103,'94827','','',1,'2021-12-21 18:38:20')  
+2021-12-21 18:38:21.011 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('65258','','',1,'2021-12-21 18:38:20','[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2)  
+2021-12-21 18:38:21.035 [DEBU] [ 23 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(14,'8370','','',1,'2021-12-21 18:38:21','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00')  
+2021-12-21 18:38:21.063 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:38:21','【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00',4,'100270','','')  
+2021-12-21 18:38:21.088 [DEBU] [ 25 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-21T10:17:06+00:00',2,'100345','','',1,'2021-12-21 18:38:21','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！')  
+2021-12-21 18:38:21.130 [DEBU] [ 41 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:38:21','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00',2,'100291','','',1)  
+2021-12-21 18:38:21.162 [DEBU] [ 32 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:38:21','【PC绿色版】搬一些常用软件绿色版本2','2021-12-11T05:44:00+00:00',29,'92363','','',1)  
+2021-12-21 18:38:21.198 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:21','学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4,'70129')  
+2021-12-21 18:38:21.218 [DEBU] [ 35 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(5,'100189','','',1,'2021-12-21 18:38:21','「维多利亚的秘密大秀2005~2...,采访,共计150GB」','2021-12-20T23:16:20+00:00')  
+2021-12-21 18:38:21.225 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-17T13:21:33+00:00',3,'98442','','',1,'2021-12-21 18:38:21','求电子书')  
+2021-12-21 18:38:21.245 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('目录！！！','2021-11-11T04:47:07+00:00',118,'70648','','',1,'2021-12-21 18:38:21')  
+2021-12-21 18:38:21.273 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('亚马逊原版azw3合集','2021-12-19T04:01:32+00:00',3,'99390','','',1,'2021-12-21 18:38:21')  
+2021-12-21 18:38:21.297 [DEBU] [ 22 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(50,'97252','','',1,'2021-12-21 18:38:21','【安卓破解网游】逍遥天地金庸卡牌手游，无限元宝打发时间','2021-12-16T03:14:31+00:00')  
+2021-12-21 18:38:21.325 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:38:21','闲着没事，玩成语接龙吧','2021-11-15T07:46:39+00:00',772,'74089','','',1)  
+2021-12-21 18:38:21.354 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:38:21','【十八岁的天空】【保剑锋/倪景阳/金莎】【高清1080下载】【12.88G】【22集】【MP4】【无台标无水印有字幕】','2021-12-18T07:53:44+00:00',22,'98861','','',1)  
+2021-12-21 18:38:21.384 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-10-31T14:24:46+00:00',62,'61867','','',1,'2021-12-21 18:38:21','Diablo 2: Resurrected 暗黑破坏神2:狱火重生(重制版)')  
+2021-12-21 18:38:21.417 [DEBU] [ 30 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:38:21','美食制作，各地小吃。','2021-11-06T13:59:32+00:00',10,'66316','','',1)  
+2021-12-21 18:38:21.448 [DEBU] [ 31 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('57321','','',1,'2021-12-21 18:38:21','PC端游戏贴，有什么需要的游戏可以在贴内留言，题主看到会尽量找出来的','2021-10-24T04:37:53+00:00',309)  
+2021-12-21 18:38:21.479 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`) VALUES(1,'2021-12-21 18:38:21','求，《风云》系列电视剧！','2021-08-03T08:34:58+00:00',6,'2864','','')  
+2021-12-21 18:38:21.507 [DEBU] [ 27 ms] [default] INSERT INTO `posts`(`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`) VALUES(103,'94827','','',1,'2021-12-21 18:38:21','一些Android软件分享，有需要自取。','2021-12-13T12:55:56+00:00')  
+2021-12-21 18:38:21.536 [DEBU] [ 29 ms] [default] INSERT INTO `posts`(`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`) VALUES('',1,'2021-12-21 18:38:21','[珍藏级]名侦探柯南 剧场版 高配低配24部 1080P附带字幕','2021-11-05T15:54:35+00:00',2,'65258','')  
+2021-12-21 18:38:21.578 [DEBU] [ 40 ms] [default] INSERT INTO `posts`(`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`) VALUES('','',1,'2021-12-21 18:38:21','【李丽珍系列】1996-玉PT2：玉女心经 4.36G','2021-08-23T03:33:43+00:00',14,'8370')  
+2021-12-21 18:38:21.616 [DEBU] [ 37 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('【4K 蓝光原盘 REMUX】【最后的决斗 The Last Duel (2021)】','2021-12-21T05:55:19+00:00',4,'100270','','',1,'2021-12-21 18:38:21')  
+2021-12-21 18:38:21.655 [DEBU] [ 39 ms] [default] INSERT INTO `posts`(`CreateOn`,`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`) VALUES('2021-12-21 18:38:21','【独家资源】紫川 2021 4K 国语中字 集均1GB+ 更新1～2集 ！！！失效和谐不补！！！','2021-12-21T10:17:06+00:00',2,'100345','','',1)  
+2021-12-21 18:38:21.699 [DEBU] [ 41 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('100291','','',1,'2021-12-21 18:38:21','2021《巨蟒》孙耀威 迷雾丛林死亡深渊 神出鬼没的巨蟒','2021-12-21T06:47:51+00:00',2)  
+2021-12-21 18:38:21.738 [DEBU] [ 38 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-12-11T05:44:00+00:00',29,'92363','','',1,'2021-12-21 18:38:21','【PC绿色版】搬一些常用软件绿色版本2')  
+2021-12-21 18:38:21.774 [DEBU] [ 35 ms] [default] INSERT INTO `posts`(`Title`,`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`) VALUES('学霸戴你飞通信原理','2021-11-10T10:43:17+00:00',4,'70129','','',1,'2021-12-21 18:38:21')  
+2021-12-21 18:38:21.817 [DEBU] [ 42 ms] [default] INSERT INTO `posts`(`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`,`HtmlContext`,`Tags`) VALUES('98442','','',1,'2021-12-21 18:38:21','求电子书','2021-12-17T13:21:33+00:00',3)  
+2021-12-21 18:38:21.853 [DEBU] [ 36 ms] [default] INSERT INTO `posts`(`HtmlContext`,`Tags`,`Request_id`,`aliyun_url`,`del_url`,`Status`,`CreateOn`,`Title`) VALUES('2021-11-23T10:07:23+00:00',7,'79939','','',1,'2021-12-21 18:38:21','伊苏9 豪华中文汉化版 RPG经典游戏神作 解压即玩')  

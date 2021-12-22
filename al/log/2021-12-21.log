@@ -1,0 +1,165 @@
+2021-12-21 18:06:07.448 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:06:08.512 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:06:08.701 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:06:09.186 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:06:42.181 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:06:42.851 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:06:42.863 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:08:18.699 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:08:19.287 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:08:19.351 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:08:19.795 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:58
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:30:12.707 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:76
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:30:13.318 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:76
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:30:13.322 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:76
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
+2021-12-21 18:30:13.795 [ERRO] interface conversion: interface {} is nil, not []*Model.Posts 
+Stack:
+1.  go_spider/core/spider.(*Spider).pageProcess.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:336
+2.  main/Pipline.(*TsPipeline).Process
+    D:/Hongbo/Code/Go_code/test/al/Pipline/httpliebiao.go:76
+3.  go_spider/core/spider.(*Spider).pageProcess
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:388
+4.  go_spider/core/spider.(*Spider).Run.func1
+    D:/Hongbo/Code/Go_code/test/go_spider/core/spider/spider.go:154
+ 
