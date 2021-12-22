@@ -6,7 +6,7 @@
 # 数据库连接
 [database]
    [database.default]
-        link  = "mysql:ddd:eLDX3cymGNRt2kNa@tcp(81.69.255.66:3306)/ddd?multiStatements=true"
+        link  = "mysql:ddd:eLDX3cymGNRt2kNa@tcp(0.69.255.66:3306)/ddd?multiStatements=true"
         debug = true
     # 数据库日志对象配置
     [database.logger]
